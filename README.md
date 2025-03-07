@@ -55,7 +55,7 @@ This script represents the connection that should exist globally between:
 The simulation aims to illustrate the communication links between these three key points and analyze the potential for establishing a reliable connection.  
 
 ### Output Visualization  
-The following image illustrates what the MATLAB script `GraficoSimulaciondeConexionSatelital.m` should generate:  
+The following image illustrates what the MATLAB script `Satellite_Connection_Simulation_Chart.m` should generate:  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1387af3f-a5ce-454a-8342-5c14b7e03192" alt="MATLAB Simulation Output" width="600">
@@ -69,7 +69,7 @@ In this script, we simulate the process of packet transmission from different ba
 It is important to note that if the latency is high, the packets will be fragmented before transmission. This feature simulates the real-world challenges of communication in satellite networks, where high latency can affect packet integrity and transmission efficiency.  
 
 ### Output Visualization  
-The following image illustrates what the script `ModulaciondePaquetes.m` would show:  
+The following image illustrates what the script `ModulationofPackets.m` would show:  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3871c25c-fe6c-4324-94d3-617063668b0a" alt="Packet Modulation Simulation" width="600">
