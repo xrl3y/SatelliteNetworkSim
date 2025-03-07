@@ -46,7 +46,7 @@ Make sure to download the files to your local device to play them.
 
 To perform advanced simulations of satellite networks, the **Satellite Communications Toolbox** in MATLAB was used. Below is a description of the key script and its functionality:  
 
-### Script: `GraficoSimulaciondeConexionSatelital.m`  
+### Script: `Satellite_Connection_Simulation_Chart.m`  
 This script represents the connection that should exist globally between:  
 - A **base station** located in Bogotá, Colombia.  
 - A **satellite** in a LEO orbit at an altitude between 500 km and 2000 km.  
@@ -63,7 +63,7 @@ The following image illustrates what the MATLAB script `GraficoSimulaciondeConex
 
 
 
-### Script: `ModulaciondePaquetes.m`  
+### Script: `ModulationofPackets.m`  
 In this script, we simulate the process of packet transmission from different base stations to the satellite. The script demonstrates how the satellite receives and processes these packets, with a live simulator that allows you to choose the number of packets to send and the desired latency percentage.  
 
 It is important to note that if the latency is high, the packets will be fragmented before transmission. This feature simulates the real-world challenges of communication in satellite networks, where high latency can affect packet integrity and transmission efficiency.  
@@ -76,7 +76,7 @@ The following image illustrates what the script `ModulaciondePaquetes.m` would s
 </p>
 
 
-### Script: `RedSatelitalnoEscalonada.m`  
+### Script: `Non_Step_Satellite_Network.m`  
 In this script, we simulate a satellite network within the solar system, where a non-stepped network is implemented. In this setup, there are no time offsets between satellites in the LEO orbit. Additionally, a GEO orbit is constructed to ensure that one satellite is always present, though it comes with high latency of up to 600 ms. This setup poses a risk for potential failures in the LEO constellation, as a single failure could impact the entire network.  
 
 ### Output Visualization  
@@ -87,7 +87,7 @@ The following image represents the simulation setup described above:
 </p>
 
 
-### Script: `SimulacionCompletaSatelital.m`  
+### Script: `FullSatelliteSimulation.m`  
 This script represents the complete satellite simulation, where the time offset between satellites is considered. The goal is to ensure that at least one satellite is always present in the LEO constellation over Colombia.  
 
 In the script, you can modify the number of orbits and the number of satellites per orbit to customize the simulation. This flexibility allows you to test different configurations and observe how they affect satellite coverage and connectivity.  
